@@ -14,12 +14,17 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 ### Documents
 
 **causalgraph**: 
-contains causal analysis of the data set and calculation of the causal effect,the comparison method FairRF in the paper.
+
+    contains causal analysis of the data set and calculation of the causal effect,the comparison method FairRF in the paper.
+
 **generators**:  
+
     contains three generator in the paper.
+    
 **models**:  
 
     contains utility functions to build DNN models.
+    
 **data_model**:  
 
     contains the trained model for each dataset.
