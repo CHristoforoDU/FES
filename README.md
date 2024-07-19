@@ -38,14 +38,17 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 
 ### Running
 **1. find top1 non-senstive feature**:
+
     #choose the dataset and sensitive feature
     python causalgraph/Causal effect.py 'adult' 'sex'
     
 **2. train**:
+
     #choose the dataset 
     python models/model_train.py 'adult'
     
 **3. test generator**:
+
     #choose the dataset, sensitive feature and chosen non-senstive feature
     python generators/ADF.py
     
