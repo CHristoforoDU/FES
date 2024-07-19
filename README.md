@@ -18,16 +18,17 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 The easiest way to execute the codes for the proposed approach is to download the .ipynb script you need and run it in Google Colaboratory, where you can execute the Python code or R code in your broswer. Otherwise, you may encounter some configuration issues.
 ### Documents
 
-**causalgraph**: contains causal analysis of the data set and calculation of the causal effect,the comparison method FairRF in the paper.
-**generator**:  
+**causalgraph**: 
+contains causal analysis of the data set and calculation of the causal effect,the comparison method FairRF in the paper.
+**generators**:  
     contains three generator in the paper.
-**model**:  
+**models**:  
 
     contains utility functions to build DNN models.
-**preprocessing**:  
+**data_model**:  
 
-    contains the function that preprocessing the data .
-**evaluation**:  
+    contains the trained model for each dataset.
+**model_evaluation**:  
 
     contains functions to evaluate adequacy metric and fairness metric.     
 
