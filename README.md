@@ -14,7 +14,7 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 ### Documents
 
 **causalgraph**: 
-
+    
     contains causal analysis of the data set and calculation of the causal effect,the comparison method FairRF in the paper.
 
 **generators**:  
@@ -37,16 +37,16 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
     performance datasets of 8 fairness dataset as specified in the paper.
 
 ### Running
-**1. find top1 nonsenstive feature**:
-
+**1. find top1 non-senstive feature**:
+    #choose the dataset and sensitive feature
     python causalgraph/Causal effect.py 'adult' 'sex'
     
 **2. train**:
-
+    #choose the dataset 
     python models/model_train.py 'adult'
     
 **3. test generator**:
-
+    #choose the dataset, sensitive feature and chosen non-senstive feature
     python generators/ADF.py
     
 **4.evaluation**:
