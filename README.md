@@ -11,11 +11,6 @@ To mitigate unfair and unethical discrimination over sensitive features (e.g., g
 
 The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 
-### Installation
-
-```!git clone https://github.com/anonymoususr970416/Fair_EStudy ```
-
-The easiest way to execute the codes for the proposed approach is to download the .ipynb script you need and run it in Google Colaboratory, where you can execute the Python code or R code in your broswer. Otherwise, you may encounter some configuration issues.
 ### Documents
 
 **causalgraph**: 
