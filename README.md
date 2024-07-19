@@ -27,7 +27,7 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
     
 **data_model**:  
 
-    contains the trained model for each dataset.
+    contains the trained model structure for each dataset.
 **model_evaluation**:  
 
     contains functions to evaluate adequacy metric and fairness metric.     
@@ -37,7 +37,16 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
     performance datasets of 8 fairness dataset as specified in the paper.
 
 ### Running
-**Python IDE (e.g. Pycharm)**: Open the evlation file on the IDE, and choose the metric on the paper.
+**Python IDE (e.g. Pycharm)**:
+1. find top1 nonsenstive feature:
+   python causalgraph/Causal effect.py 'adult' 'sex'
+2. train
+    python models/model_train.py 'adult'
+3. test generator
+    python generators/ADF.py
+4.evaluation
+    python models_evaluation/fairness_evaluation.py
+
 
 ## Data
 
