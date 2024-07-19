@@ -38,23 +38,14 @@ The codes have been tested with **Python 3.7** and **Tensorflow 2.x**
 
 ### Running
 **Python IDE (e.g. Pycharm)**:
-1. find top1 nonsenstive feature:
+**1. find top1 nonsenstive feature**:
    python causalgraph/Causal effect.py 'adult' 'sex'
-2. train
+**2. train**:
     python models/model_train.py 'adult'
-3. test generator
+**3. test generator**:
     python generators/ADF.py
-4.evaluation
+**4.evaluation**:
     python models_evaluation/fairness_evaluation.py
 
 
-## Data
 
-### Experiment dataset
-
-In data directory, you can find the raw data used in our experiments in Folder Datasets. These files will be loaded automatically in each model script.
-
-
-## Result
-
-This folder contains all the experimental results to answer the research questions in our paper.
